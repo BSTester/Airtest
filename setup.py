@@ -32,7 +32,7 @@ if sys.platform == "win32":
 
 
 setup(
-    name='airtest38',
+    name='airtest',
     version=get_version("airtest/utils/version.py"),
     author='Netease Games',
     author_email='gzliuxin@corp.netease.com',
