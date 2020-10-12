@@ -32,13 +32,13 @@ if sys.platform == "win32":
 
 
 setup(
-    name='airtest',
+    name='airtest38',
     version=get_version("airtest/utils/version.py"),
     author='Netease Games',
     author_email='gzliuxin@corp.netease.com',
     description='UI Test Automation Framework for Games and Apps on Android/iOS/Windows/Linux',
     long_description='UI Test Automation Framework for Games and Apps on Android/iOS/Windows, present by NetEase Games',
-    url='https://github.com/AirtestProject/Airtest',
+    url='https://github.com/BSTester/Airtest',
     license='Apache License 2.0',
     keywords=['automation', 'automated-test', 'game', 'android', 'ios', 'windows', 'linux'],
     packages=find_packages(exclude=['cover', 'playground', 'tests', 'dist']),
@@ -69,5 +69,6 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
 )
